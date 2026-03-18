@@ -5,7 +5,7 @@ formulario?.addEventListener("submit", async function(event) {
     event.preventDefault(); 
     
     const input = formulario.querySelector('input[name="query"]');
-    const table= document.getElementById('resultados');
+    const table= document.getElementById('dataTable');
 
     table.innerHTML = '';
 
